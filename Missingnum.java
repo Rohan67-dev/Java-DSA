@@ -1,9 +1,7 @@
 public class Missingnum {
     static {
-        Solution obj = new Solution();
-
         for(int i = 0; i < 444; i++) {
-            obj.missingNumber(new int[]{0, 1, 2});
+            missingNumber(new int[]{0, 1, 2});
         }
     }
 

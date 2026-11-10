@@ -1,4 +1,4 @@
-package javadsa;
+
 import java.util.*;
 
 public class Binanrtysumission {

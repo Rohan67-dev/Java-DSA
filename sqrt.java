@@ -3,7 +3,6 @@ class Solution {
         int ans=0;
         int low=1;
         int high=x;
-        // lets do it with binary searches
         while(high>=low){
             while (low <= high) {
             int mid = low + (high - low) / 2;
@@ -17,5 +16,9 @@ class Solution {
         }
         }
         return ans;
+    }
+
+    public void missingNumber(int[] is) {
+        throw new UnsupportedOperationException("Unimplemented method 'missingNumber'");
     }
 }

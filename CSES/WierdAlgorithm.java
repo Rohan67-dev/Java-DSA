@@ -16,5 +16,6 @@ public class WierdAlgorithm {
             }
             System.out.print(n+" ");
         }
+        sc.close();;
     }
 }
